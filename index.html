@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h2>Hello, Its Chaitali</h2>
+            <h3>And I am a <span>front end developer</span></h3>
+            <p>
+                <b>Welcome to my portfolio! I'm Chaitali, a passionate third-year B.Tech student at SRM AP University, specializing in front-end web development. With a solid foundation in HTML, CSS, and JavaScript, I love crafting engaging user experiences and bringing designs to life. Through my projects and coursework, I've honed my skills in responsive design and front-end frameworks like React. I'm eager to contribute innovative solutions to real-world challenges in the tech industry. Explore my work and journey as I strive to merge creativity with functionality in every project I undertake.</b>
+            </p>
+            <div class="social-media">
+                <a href="https://github.com/Visalakshichaitu" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/chaitali-lingam-aa6151255/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="Chaitali Resume_AP22110010437.pdf" class="btn" download="Chaitali_Resume.pdf">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="my photo.jpg" alt="Home Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p><b>As a frontend developer, I specialize in creating intuitive and responsive user interfaces that enhance user experience. My roles involve:</b></p>
+            <ul>
+                <li>Translating UI/UX designs into responsive web pages using HTML, CSS, and JavaScript.</li>
+                <li>Collaborating closely with designers to ensure technical feasibility of their designs and implement them with pixel-perfect precision.</li>
+                <li>Optimizing web applications for maximum speed and scalability.</li>
+                <li>Implementing best practices and standards in web development, including accessibility and SEO.</li>
+                <li>Continuously learning and integrating new technologies to improve frontend development workflows.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="achievements" id="achievements">
+        <h2 class="heading">Academic <span>Achievements</span></h2>
+        <table class="achievement-table">
+            <tr>
+                <th>SNo.</th>
+                <th>School/College Name</th>
+                <th>CGPA/Percentage</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>SRM AP University</td>
+                <td>9.3 </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sri Chaitanya Vidya Niketan (CBSE)</td>
+                <td>91%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sri Chaitanya School (CBSE)</td>
+                <td>95.6%</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-layer">
+                    <h4>Heavenly Project</h4>
+                    <p><b>"Heavenly"</b> is a project inspired by Urban Company, offering a platform for various services. It showcases my skills in frontend development, emphasizing responsive design and user-friendly interfaces. This website provides multiple services to clients, including plumbing, spa, grooming, and various other services.
+                         <br>It also features a payment option and the ability to book appointments at the desired time.
+                         <br>
+
+                        This project highlights my skills in web development, utilizing various JavaScript functions for interactivity and several CSS features to enhance its appearance and functionality. Separate files are used for HTML, CSS, and JavaScript code, which improves code efficiency and facilitates exportability.
+                    </p>
+                    <a href="https://visalakshichaitu.github.io/WEB-DEV-PROJECT/" target="_blank"><i class='bx bxl-github'></i> View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
